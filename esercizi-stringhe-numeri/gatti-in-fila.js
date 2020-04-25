@@ -17,3 +17,10 @@
 
   http://www.imparareaprogrammare.it
 */
+var cats = 44;
+var lineofcats = 6
+var division = Math.ceil(cats / lineofcats)
+console.log(`Numero di file :  ${division}`);
+var totalcats = division * lineofcats;
+var missingcats = totalcats - cats;
+console.log(`Gatti mancanti : ${missingcats}`)
